@@ -2,3 +2,6 @@
 .turbo/
 apps/mobile/.turbo/
 apps/web/.turbo/
+# node_modules
+node_modules/
+**/node_modules
