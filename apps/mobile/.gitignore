@@ -41,4 +41,6 @@ example
 # generated native folders
 /ios
 /android
-/.turbo/
+
+# Turborepo
+.turbo/

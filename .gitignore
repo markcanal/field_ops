@@ -1,1 +1,4 @@
-/.turbo
+# Turborepo
+.turbo/
+apps/mobile/.turbo/
+apps/web/.turbo/
