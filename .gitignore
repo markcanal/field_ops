@@ -1,7 +1,39 @@
+# Dependencies
+**/node_modules/
+
 # Turborepo
 .turbo/
-apps/mobile/.turbo/
-apps/web/.turbo/
-# node_modules
-node_modules/
-**/node_modules
+
+# Next.js
+**/.next/
+out/
+
+# Expo
+**/.expo/
+dist/
+web-build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# TypeScript
+**/*.tsbuildinfo
+
+# Coverage
+coverage/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
