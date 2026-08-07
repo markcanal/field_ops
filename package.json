@@ -31,5 +31,10 @@
     "prettier": "latest",
     "turbo": "latest",
     "typescript": "latest"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
